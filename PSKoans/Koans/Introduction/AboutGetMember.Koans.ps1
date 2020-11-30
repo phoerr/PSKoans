@@ -146,11 +146,11 @@ Describe "Get Member" {
             Now that we know how the state of an object is represented by the values of its properties,
             we can now take a look at methods. In contrast to properties, methods need parentheses.
             Inside the parentheses you can give additional parameters (oftentimes called arguments)
-            to the method, similary to parameters for a function. In fact, this is how most
+            to the method, similarly to parameters for a function. In fact, this is how most
             programming languages treat functions and methods. If for example you want to
             know if a string ends with a certain character, it is necessary that the method knows
             which character you want to compare the string against.
-            
+
             Similar to above, you can inspect the methods available from an
             object that a cmdlet outputs, by changing the -MemberType value
             you provide to Get-Member:
