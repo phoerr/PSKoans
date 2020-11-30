@@ -506,7 +506,7 @@ Describe 'Brackets and Braces' {
                 Square brackets denote a set or collection of symbols within a regular
                 expression. Imagine a pattern that might read "a or b or c or d". You may use square
                 brackets to create that regex. The set contained within the square brackets
-                represent one charactermwithin the string being searched.
+                represent one character within the string being searched.
 
                 The fancy regex name for this is a "character class".
             #>
