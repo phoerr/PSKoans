@@ -315,7 +315,7 @@ a domestic cat
             '__' -match '\d' | Should -BeTrue
         }
 
-        It 'can require more than one occurence in a row' {
+        It 'can require more than one occurrence in a row' {
             '__' -match '\d\d\d' | Should -BeTrue
         }
 
