@@ -142,7 +142,7 @@ Describe 'Binary Operators' {
     Context 'Int16, Int32, and Int64' {
         # Larger integer types, such as Int32, are made up of several bytes.
 
-        It 'uses mulitple bytes to describe a larger integers' {
+        It 'uses multiple bytes to describe a larger integers' {
             '00010100 00000001' | ConvertFrom-Binary -To Int16 | Should -BeOfType [Int16]
             '01000000 00000100 00000010 00110001' | ConvertFrom-Binary -To Int32 | Should -BeOfType [Int32]
         }
