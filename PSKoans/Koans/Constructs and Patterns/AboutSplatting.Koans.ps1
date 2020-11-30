@@ -83,7 +83,7 @@ Describe 'Splatting' {
             $String = "Folders:__"
             $Parameters = if ($String -match 'Folders:(?<Filter>[_\d\w ]*)$') {
                 <#
-                    Matches is automaticed populated by the -match operater in the if statement
+                    Matches is automatically populated by the -match operator in the if statement
                     If $String = "Folders:00_TheBasics"
                     Then $Matches holds the following:
                     Name                           Value
