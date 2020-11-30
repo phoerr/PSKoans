@@ -6,7 +6,7 @@ param()
 
     Arrays have one critical weakness: they are immutable collections. While the
     members within them can change, the number of items they hold cannot. Consider the
-    folllowing code:
+    following code:
 
     $Array = 0, 1
     $Array = $Array + 2
