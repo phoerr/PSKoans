@@ -141,7 +141,7 @@ Describe 'Working With Regular Expressions' {
 
 Describe 'Quantifiers' {
     <#
-        Until now, all of the regex exmaples have been literal values. For instace, searching for
+        Until now, all of the regex examples have been literal values. For instance, searching for
         the pattern "through" within the string "Running through a forest", the pattern "through" is
         literally the characters t, h, r, o, u, g, and h in that order. Since quantifiers and many other
         symbols in regex have special meanings, it can sometimes be confusing for humans to read
