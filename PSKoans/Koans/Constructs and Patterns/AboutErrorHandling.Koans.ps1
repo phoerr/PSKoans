@@ -41,7 +41,7 @@ Describe 'ErrorRecord' {
             Get-Item -Path "TestDrive:\This_Shouldn't_Exist" -ErrorAction SilentlyContinue
             __ | Should -Be $Error.Count
         }
-        It 'is possible to surpress the error record all together' {
+        It 'is possible to suppress the error record all together' {
             Get-Item -Path "TestDrive:\This_Shouldn't_Exist" -ErrorAction Ignore
             __ | Should -Be $Error.Count
         }
